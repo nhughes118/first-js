@@ -14,3 +14,27 @@ function change() {
 var name = 'Lucille'; //Store a string in a var
 var numberOfWidgets = 10; //number
 var isCodingCool = true; //boolean
+console.log(name); // log the value of a var to the console
+
+// store an array in a var
+var characters = [50, true, 'Lucille', 'Michael Bluth', 'Tobias', 10, 2];
+console.log(characters[2]); // this will log Lucille to the console
+
+var myName = 'Nick';
+var myAge = '26';
+
+var showsIWatch = ['Arrow', 'Flash', 'This is Us', true, 3];
+
+console.log(myName);
+console.log(myAge);
+console.log(showsIWatch[1]); // displays Flash
+
+console.log(showsIWatch[4] + 50);
+
+//add a new item to the array
+characters.push(false);
+console.log(characters);
+
+showsIWatch.splice(3, 1); // removes true from array (index of true = 3, remove "1" item)
+
+console.log(showsIWatch);
